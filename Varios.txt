@@ -1,0 +1,7 @@
+30/01/2020
+
+La version de python que usamos por defecto es la 3.7.4 que es la que esta instalada con AnaConda: (C:\Users\Texelia\Anaconda3). Y es la que viene en primer lugar en la variable de entorno Path.
+
+Por tanto la version 3.7.2 instalada en el directorio (C:\Users\Texelia\AppData\Local\Programs\Python\Python37-32) no se esta usando ahora mismo.
+
+Vamos a instalar la nueva version de python (3.8.1). Supongo que la instalara en el mismo directorio que la 3.7.2). Le indicamos que la añada al PATH
