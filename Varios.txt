@@ -4,4 +4,5 @@ La version de python que usamos por defecto es la 3.7.4 que es la que esta insta
 
 Por tanto la version 3.7.2 instalada en el directorio (C:\Users\Texelia\AppData\Local\Programs\Python\Python37-32) no se esta usando ahora mismo.
 
-Vamos a instalar la nueva version de python (3.8.1). Supongo que la instalara en el mismo directorio que la 3.7.2). Le indicamos que la añada al PATH
+Vamos a instalar la nueva version de python (3.8.1). Supongo que la instalara en el mismo directorio que la 3.7.2). Le indicamos que la añada al PATH.
+La version 3.8 no funciona con Tensorflow (no permite instalarlo dfesde el pip)
