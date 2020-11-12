@@ -3,10 +3,16 @@ import pandas as pd
 mydict = [{'x': 1, 'y': 2, 'z': 3, 'w': 4},
           {'x': 100, 'y': 200, 'z': 300, 'w': 400},
           {'x': 1000, 'y': 2000, 'z': 3000, 'w': 4000 }]
+
+      
 #con index
-#df = pd.DataFrame(mydict, index=['a', 'b', 'c'])
+df = pd.DataFrame(mydict, index=['a', 'b', 'c'])
 #sin index (pone automaticamente del 0 al numero de filas)
 df = pd.DataFrame(mydict)
+#Para
+df.index.names = ['Letras']
+df
+df['a']
 #df.iloc[1] (escalar)es un pandas.Series es como un diccionario donde las keys
 # son los nombres de las columnas y los valores son los valores del dataframe
 # para esa fila

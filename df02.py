@@ -6,7 +6,8 @@ mydict = [{'a': 1, 'b': 2, 'c': 3, 'd': 4},
           {'a': 1000, 'b': 2000, 'c': 3000, 'd': 4000 }]
 
 df = pd.DataFrame(mydict)
-
+df
+df['a'][1]
 # Con un escalar
 type(df.iloc[0])
 print(df.iloc[0])
